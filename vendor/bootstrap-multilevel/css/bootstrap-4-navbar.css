@@ -1,0 +1,96 @@
+/*//Copy this css*/
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(64, 64, 64);
+}
+.btco-menu li > a {
+    padding: 10px 15px;
+    color: #000;
+
+}
+
+.btco-menu .active a:focus,
+.btco-menu li a:focus ,
+.navbar > .show > a:focus{
+    background: transparent;
+    outline: 0;
+}
+
+
+.dropdown-menu .show > .dropdown-toggle::after{
+    transform: rotate(-90deg);
+}
+
+/*=-====Bootstrapthemes.co btco-hover-menu=====*/
+
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(64, 64, 64);
+}
+.btco-hover-menu a ,  .navbar > li > a {
+    text-transform: capitalize;
+    padding: 10px 15px;
+}
+.btco-hover-menu .active a,
+.btco-hover-menu .active a:focus,
+.btco-hover-menu .active a:hover,
+.btco-hover-menu li a:hover,
+.btco-hover-menu li a:focus ,
+.navbar>.show>a,  .navbar>.show>a:focus,  .navbar>.show>a:hover{
+    color: #000;
+    background: transparent;
+    outline: 0;
+}
+
+
+
+/*submenu style start from here*/
+
+
+.dropdown-menu {
+    padding: 0px 0;
+    margin: 0 0 0;
+    border: 0px solid transition !important;
+    border: 0px solid rgba(0,0,0,.15);
+    border-radius: 0px;
+}
+
+/*first level*/
+.category__button ul > li:hover > a{background: #075290;color: #fff}
+.popular__list_content .category__button ul > li:hover > a {
+    background: #166cc3;
+    color: #fff;
+}
+.category__button ul ul > li:hover > a, .navbar .show .dropdown-menu > li > a:focus, .navbar .show .dropdown-menu > li > a:hover{background: #075290;color: #fff;border-bottom: none;}
+/*second level*/
+.category__button ul ul ul > li:hover > a{background: #fff;}
+
+/*third level*/
+.category__button ul ul, .category__button ul ul.dropdown-menu{background:#fff;}
+.category__button ul ul ul, .category__button ul ul ul.dropdown-menu{background:#fff}
+.category__button ul ul ul ul, .category__button ul ul ul ul.dropdown-menu{background:#fff}
+
+/*Drop-down menu work on hover*/
+.btco-hover-menu{background: none;margin: 0;padding: 0;min-height:20px}
+
+@media only screen and (max-width: 991px) {
+    .btco-hover-menu .show > .dropdown-toggle::after{
+        transform: rotate(-90deg);
+    }
+}
+@media only screen and (min-width: 991px) {
+
+    .category__button ul li{position:relative;border-bottom: 1px solid #eee;}
+    .category__button ul li:last-child{border:none;}
+    .category__button ul li:hover> ul{display:block;-webkit-box-shadow: 0 8px 17px 2px rgba(0,0,0,0.06), 0 3px 14px 2px rgba(0,0,0,0.04), 0 5px 5px -3px rgba(0,0,0,0.1);
+    box-shadow: 0 8px 17px 2px rgba(0,0,0,0.06), 0 3px 14px 2px rgba(0,0,0,0.04), 0 5px 5px -3px rgba(0,0,0,0.1);}
+    .category__button ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+    /*******/
+    .category__button ul ul li{position:relative;}
+    .category__button ul ul li:hover> ul{display:block}
+    .category__button ul ul ul{position:absolute;top:0;left:100%;min-width:250px;display:none}
+    /*******/
+    .category__button ul ul ul li{position:relative}
+    .category__button ul ul ul li:hover ul{display:block}
+    .category__button ul ul ul ul{position:absolute;top:0;left:-100%;min-width:250px;display:none;z-index:1}
+    .category__button ul ul li:last-child{border:none;}
+
+}

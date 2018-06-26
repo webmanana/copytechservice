@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Regular.eot');
+    src: url('Effra-Regular.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Regular.woff2') format('woff2'),
+        url('Effra-Regular.woff') format('woff'),
+        url('Effra-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('EffraMedium-Regular.eot');
+    src: url('EffraMedium-Regular.eot?#iefix') format('embedded-opentype'),
+        url('EffraMedium-Regular.woff2') format('woff2'),
+        url('EffraMedium-Regular.woff') format('woff'),
+        url('EffraMedium-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Effra';
+    src: url('Effra-Bold.eot');
+    src: url('Effra-Bold.eot?#iefix') format('embedded-opentype'),
+        url('Effra-Bold.woff2') format('woff2'),
+        url('Effra-Bold.woff') format('woff'),
+        url('Effra-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
