@@ -1702,7 +1702,12 @@ footer {
 		justify-content: center;
 	}
 }
-
+@media (min-width: 992px) and (max-width:1200px) {
+		.slick-slide img {
+	    height: auto;
+	    width: 100%;
+	}
+}
 @media (max-width: 992px) {
 	.filter__item {
 		width: 220px;
