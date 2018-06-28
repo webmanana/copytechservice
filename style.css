@@ -1077,7 +1077,12 @@ ul.hidden-links.hidden {
 	background-color: #1e7bd9;
 	border-color: #fff;
 }
-
+.owl-next.disabled:hover .banner__right, .owl-prev.disabled:hover .banner__left {
+	cursor: no-drop;
+}
+.slinky-theme-default a.drill__blue:hover {
+	background-color: #0a59af;
+}
 .custom1.owl-carousel .owl-dots.disabled, .custom1.owl-carousel .owl-nav.disabled {
 	display: block !important;
 }
