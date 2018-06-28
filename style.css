@@ -258,6 +258,7 @@ header {}
 	border: none;
 	vertical-align: middle;
 	width: 99%;
+	line-height: 17px;
 }
 
 .cart a {
