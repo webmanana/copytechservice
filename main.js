@@ -113,20 +113,37 @@ jQuery(document).ready(function($) {
 });
 // select2
 $(document).ready(function() {
-    $('#device').select2({
-        placeholder: "Выберите тип устройств",
-        minimumResultsForSearch: Infinity
-    });
-    $('#brend').select2({
-        placeholder: "Производитель",
-        minimumResultsForSearch: Infinity
-    });
-    $('#model').select2({
-        placeholder: "Модель",
-        minimumResultsForSearch: Infinity
-    });
+    if ($('form').is("#findGears")){
+        $('#device').select2({
+            placeholder: "Выберите тип устройств",
+            minimumResultsForSearch: Infinity
+        });
+        $('#brend').select2({
+            placeholder: "Производитель",
+            minimumResultsForSearch: Infinity,
+            disabled: true
+        });
+        $('#model').select2({
+            placeholder: "Модель",
+            minimumResultsForSearch: Infinity,
+            disabled: true
+        });
+        $('#device').on('select2:select', function (e) {
+          $('#brend').select2({
+            placeholder: "Производитель",
+            minimumResultsForSearch: Infinity,
+            disabled: false,
+          });
+        });
+        $('#brend').on('select2:select', function (e) {
+          $('#model').select2({
+            placeholder: "Модель",
+            minimumResultsForSearch: Infinity,
+            disabled: false,
+          });
+        });
+    }
 });
-
 // header bottom menu
 $(function() {
 
