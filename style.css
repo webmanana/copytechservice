@@ -397,6 +397,7 @@ ul.hidden-links li a {
     padding: 1rem;
     width: 100%;
     display: block;
+	border-bottom: 1px solid #eee;
 }
 
 ul.hidden-links.hidden {
@@ -1810,7 +1811,27 @@ footer {
 		margin-bottom: 10px;
 	}
 }
-
+@media (min-width: 768px) and (max-width: 992px) {
+	.filter__button {
+	    width: 100%;
+	}
+	.filter__menu_button {
+		padding: 14px 10px;
+	}
+	.filter__menu_button span {
+	    font-size: 14px;
+	}
+	.cart .cart__text {
+	    font-size: 14px;
+	}
+	.cart a {
+	    padding: 14px 10px;
+	}
+	.select2-container {
+	    width: 100%!important;
+	    margin-bottom: 20px;
+	}
+}
 @media (max-width: 679px) {
 	.logo {
 		justify-content: center;
@@ -1933,7 +1954,14 @@ footer {
 		margin-bottom: 10px;
 	}
 }
-
+@media (min-width: 576px) and (max-width: 768px) {
+	.select2-container {
+	    width: 100%!important;
+	}
+	.filter__button {
+		width: 100%;
+	}
+}
 @media (min-width: 1200px) {
 	.custom3 .owl-nav .owl-prev, .custom3 .owl-nav .owl-next {
 		display: none !important;
