@@ -1,2 +1,2 @@
-# copytechservice
+# Верстка сайта КопиТехСервис
 CopyTechService
