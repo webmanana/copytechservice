@@ -18,7 +18,9 @@
 	font-weight: bold;
 	font-style: normal;
 }
-
+.js_fancy_window {
+	display: inline-flex;
+}
 body {
 	position: relative;
 	background-color: #f0f0f0;
@@ -127,7 +129,8 @@ header {}
 }
 
 .topinfo__phone, .topinfo__contact {
-	display: inline-block;
+	display: inline-flex;
+	align-items: center;
 	float: left;
 	padding: 18px;
 }
