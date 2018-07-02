@@ -403,6 +403,10 @@ ul.hidden-links li a {
 	border-bottom: 1px solid #eee;
 }
 
+ul.hidden-links li a:hover {
+	color: #075290;
+}
+
 ul.hidden-links.hidden {
 	display: none;
 }
@@ -1968,6 +1972,9 @@ footer {
 	}
 	.filter__button {
 		width: 100%;
+	}
+	.mob__left {
+		border-right: none;
 	}
 }
 @media (min-width: 1200px) {
