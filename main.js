@@ -22,8 +22,8 @@ jQuery(document).ready(function($) {
                 margin: 8,
                 loop:false
             },
-            720:{
-                items:3,
+            780:{
+                items:2,
                 nav:true,
                 margin: 10
             },
@@ -58,8 +58,8 @@ jQuery(document).ready(function($) {
               items:2,
               nav:true
           },
-          720:{
-              items:3,
+          780:{
+              items:2,
               nav:false
           },
           960:{
@@ -91,11 +91,6 @@ jQuery(document).ready(function($) {
               items:2,
               nav:true,
               margin: 8
-          },
-          720:{
-              items:3,
-              nav:true,
-              margin: 10
           },
           960:{
               items:3,

@@ -95,10 +95,11 @@ section {
 header {}
 
 .inner {
-	max-width: 1290px;
+	max-width: 1330px;
 	width: 100%;
 	margin-right: auto;
 	margin-left: auto;
+	padding: 0 20px;
 }
 
 .logo {
@@ -1684,7 +1685,7 @@ footer {
 		padding-right: 20px;
 	}
 	.inner {
-		width: 90%;
+		padding: 0 20px;
 	}
 	.filter__item {
 		width: 240px;
@@ -1714,6 +1715,9 @@ footer {
 		display: flex;
 		align-items: center;
 		justify-content: center;
+	}
+	.cart a {
+	    padding: 14px 10px;
 	}
 }
 @media (min-width: 992px) and (max-width:1200px) {
@@ -1839,7 +1843,7 @@ footer {
 	.cart a {
 	    padding: 14px 10px;
 	}
-	.select2-container {
+	#findGears .select2-container--default {
 	    width: 100%!important;
 	    margin-bottom: 20px;
 	}
