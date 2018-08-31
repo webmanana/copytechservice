@@ -1733,6 +1733,12 @@ ul.hidden-links.hidden {
     background-repeat: no-repeat;
     top: 8px;
 }
+.shop__single .shop_item {
+	border-bottom: none;
+}
+.shop__single .shop_item:last-child {
+	border-bottom: 1px solid #eee;
+}
 /* single */
 .single__title {
 	font-size: 24px;
