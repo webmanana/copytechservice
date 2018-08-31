@@ -238,6 +238,7 @@ header {}
 	padding: 16px 20px;
 	font-size: 14px;
 	color: #000;
+	padding-right: 40px;
 }
 
 .category__button .dropdown-item:focus, .category__button .dropdown-item:hover {
@@ -336,6 +337,7 @@ nav.topmenu button {
 	line-height: 1;
 	position: relative;
 	top: -8px;
+	cursor: pointer;
 }
 
 nav.topmenu button.hidden {
