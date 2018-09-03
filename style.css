@@ -21,6 +21,15 @@
 .js_fancy_window {
 	display: inline-flex;
 }
+.bread {
+	margin-bottom: 20px;
+}
+.shop__single .row>div[id^='bx_incl_area'] {
+width:100%;display:flex;flex-wrap:wrap;
+}
+.shop__add_inner {
+margin:auto;
+}
 body {
 	position: relative;
 	background-color: #f0f0f0;
@@ -1112,9 +1121,9 @@ ul.hidden-links.hidden {
     align-items: center;
     justify-content: center;
 }
-
-.slick-slide img {
-   height:100%;
+#kartinka img {
+	max-width: 100%;
+	height: auto;
 }
 .slick_item {
 	display: flex!important;
