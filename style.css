@@ -19,6 +19,7 @@
 	font-style: normal;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #smartFilter .filtren {
 	border-radius: 0 !important;
@@ -123,10 +124,16 @@
 	display: inline-flex;
 }
 >>>>>>> parent of 0892f9e... fix1
+=======
+.js_fancy_window {
+	display: inline-flex;
+}
+>>>>>>> parent of 0892f9e... fix1
 .bread {
 	margin-bottom: 20px;
 }
 .shop__single .row>div[id^='bx_incl_area'] {
+<<<<<<< HEAD
 <<<<<<< HEAD
 	width: 100%;
 	display: flex;
@@ -143,6 +150,12 @@ width:100%;display:flex;flex-wrap:wrap;
 	margin: auto;
 	margin: auto;
 =======
+margin:auto;
+>>>>>>> parent of 0892f9e... fix1
+=======
+width:100%;display:flex;flex-wrap:wrap;
+}
+.shop__add_inner {
 margin:auto;
 >>>>>>> parent of 0892f9e... fix1
 }
@@ -299,6 +312,7 @@ section {
 .topmenu ul li a {
 	padding: 0 16px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	font-size: 16px;
 	font-weight: 700;
 	border-right: 1px solid #eee;
@@ -306,6 +320,8 @@ section {
 
 =======.topmenu ul li a {
 	padding: 0 12px;
+=======
+>>>>>>> parent of 0892f9e... fix1
 =======
 >>>>>>> parent of 0892f9e... fix1
 	font-size: 16px;
@@ -2649,8 +2665,15 @@ footer {
 	.popular__list_content .dropdown-menu {
 		background-color: #166cc3;
 	}
+<<<<<<< HEAD
 	.popular__list_content .dropdown-menu.show {
 		width: 100%;
+=======
+}
+@media (min-width: 576px) and (max-width: 768px) {
+	.select2-container {
+	    width: 100%!important;
+>>>>>>> parent of 0892f9e... fix1
 	}
 	.category__button .popular__list_content .dropdown-item {
 		color: #fff;
@@ -2761,6 +2784,7 @@ footer {
 		display: block !IMPORTANT;
 		border: 0px solid black;
 	}
+<<<<<<< HEAD
 	.custom1 .owl-nav .owl-next {
 		width: 50px;
 		height: 50px;
@@ -4082,6 +4106,8 @@ footer {
 	.mob__left {
 		border-right: none;
 	}
+=======
+>>>>>>> parent of 0892f9e... fix1
 }
 @media (min-width: 1200px) {
 	.custom3 .owl-nav .owl-prev, .custom3 .owl-nav .owl-next {
