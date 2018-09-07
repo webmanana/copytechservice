@@ -320,7 +320,72 @@ header {}
 .header__mobile .inner {
 	padding: 0;
 }
-
+/* cart */
+.bx_ordercart .bx_ordercart_order_table_container table thead td {
+    padding: 0 5px;
+    min-height: 39px;
+    background: #fff!important;
+    color: #000;
+    font-size: 14px;
+    line-height: 39px;
+}
+.bx_ordercart .bx_ordercart_order_table_container {
+    overflow-x: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    border: 1px solid #eee!important;
+    border-radius: 0!important;
+    font-size: 14px;
+}
+.bx_ordercart .bx_ordercart_order_table_container thead {
+	border-bottom: 1px solid #eee;
+	color: #ddd;
+}
+.bx_ordercart .bx_ordercart_order_table_container table thead td {
+    color: #aaa!important;
+    font-size: 14px;
+	padding: 10px 5px!important;
+}
+.bx_ordercart_itemtitle a, .custom div {
+	font-size: 18px!important;
+	font-weight: 500!important;
+}
+.bx_ordercart .bx_ordercart_order_table_container tbody td.itemphoto {
+	width: 15%!important;
+}
+.bx_ordercart .bx_ordercart_order_table_container table tbody td {
+    padding: 15px!important;
+}
+.bx_ordercart .bx_ordercart_order_table_container table tbody td {
+	border-bottom: 0!important
+}
+.bx_ordercart .bx_ordercart_order_table_container table tbody tr {
+	border-bottom: 1px solid #eee!important
+}
+.bx_ordercart .bx_ordercart_order_table_container table tbody tr:last-child {
+	border-bottom: none!important
+}
+.bx_ordercart .bx_ordercart_photo_container {
+	border: none!important;
+}
+.bx_ordercart .bx_ordercart_order_pay_center .checkout {
+	font-size: 16px!important;
+    font-weight: 500!important;
+    color: #fff!important;
+    padding: 14px 50px!important;
+    background-color: #00467f!important;
+	border-radius: 0!important;
+	top: 0!important;
+    background: linear-gradient(to bottom, #00467f 0%,#00467f 100%)!important;
+}
+.bx_ordercart .bx_ordercart_order_pay_center .checkout:hover {
+	background-color: #0a5ea4!important;
+	background: linear-gradient(to bottom, #0a5ea4 0%,#0a5ea4 100%)!important;
+}
 /* new_menu */
 
 nav.topmenu {
