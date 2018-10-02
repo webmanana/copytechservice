@@ -99,7 +99,13 @@
 .js_fancy_window {
 	display: inline-flex;
 }
-
+.slider_inner {
+	margin-top: 30px;
+}
+#special_banner {
+    background-color: #fff;
+    padding-top: 30px;
+}
 .slider-for a {
 	display: none;
 }
@@ -110,6 +116,23 @@
 
 .slider-for.slick-initialized a {
 	display: block;
+}
+.slider_inner .ms-nav-next {
+    right: 30px!important;
+    left: auto!important;
+    background-position: -89px -103px!important;
+}
+.slider_inner .ms-nav-next, .slider_inner .ms-nav-prev {
+    width: 30px;
+    background: url(img/light-skin-1.png);
+    background-position: -89px -26px;
+    height: 40px;
+    cursor: pointer;
+    top: 50%;
+    left: 30px;
+    margin-top: -20px;
+    position: absolute;
+    z-index: 110;
 }
 .js_fancy_window {
 	display: inline-flex;
@@ -781,7 +804,7 @@ ul.hidden-links.hidden {
 /* filter */
 
 #filter {
-	padding-top: 50px;
+	padding-top: 30px;
 	z-index: 111;
 	position: relative;
 }

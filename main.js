@@ -206,3 +206,16 @@ $('#menu').slinky({
     // shows title of sub menu
     title: false
 });
+$(document).ready(function() {
+    $('.slider-for').owlCarousel({
+        items: 1,
+        nav: true,
+        dots: false,
+        loop: false,
+        margin: 0,
+        stagePadding: 0,
+        smartSpeed: 450,
+        navText : ['<div class="ms-nav-prev ms-ctrl-hide"></div>','<div class="ms-nav-next ms-ctrl-hide"></div>'],
+        responsiveClass:true
+    });
+});
